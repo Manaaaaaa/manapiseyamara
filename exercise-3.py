@@ -1,5 +1,4 @@
 def remove_all_after(numbers, n):
-    ...
     if not numbers:
         return []
     try:
