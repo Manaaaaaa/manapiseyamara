@@ -6,4 +6,4 @@ def replace_last(numbers):
 
 numbers_input = input("Enter numbers separated by commas: ").strip()
 numbers_list = [int(num) for num in numbers_input.split(',')]
-print(replace_last(numbers_list))
+print("The last element is:",replace_last(numbers_list))
